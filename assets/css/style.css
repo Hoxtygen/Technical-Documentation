@@ -1,10 +1,21 @@
 body        {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 400;
     font-family: "EB Garamond";
+    color: black;
+}
+
+a       {
+    text-decoration: none;
+    color: hsl(300, 42%, 100%);
+}
+
+ul      {
+    padding: 0;
+    margin: 0;
 }
 
 .container      {
@@ -17,21 +28,59 @@ body        {
 
 #wrapper       {
     display: grid;
-    grid-template-columns: 15% auto;
+    grid-template-columns: 20% auto;
     grid-template-rows: auto;
-    grid-gap: 10px;
 }
 
 aside       {
     grid-column: 1 / 2;
-    border: 1px solid green;
+    background-color: hsl(120, 45%, 10%);
+    height: 100%;
+    color: hsl(360, 100%, 100%);
+    position: fixed;
+    width: 16%;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
 }
+
+  nav         {
+    padding-top: 3rem;
+}  
 
 main        {
     grid-column: 2 / 3;
-    border: 1px solid orange;
 }
 
-.sidebar        {
-    background-color: yellowgreen;
+.main-content       {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content h2        {
+    margin-bottom: 0;
+}
+
+.nav-container      {
+    list-style: none;
+}
+
+ .nav-link {
+    margin: 0;
+}
+
+.nav-item .nav-link h3      {
+    font-weight: 400;
+    margin-bottom: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 95%);
+} 
+
+.nav-container h3       {
+    margin: 0;
+}
+
+#main-doc       {
+    background: hsl(0, 40%, 97%);
 }
