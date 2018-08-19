@@ -6,6 +6,7 @@ body        {
     font-weight: 400;
     font-family: "EB Garamond";
     color: black;
+    background: hsl(192, 15%, 94%);
 }
 
 a       {
@@ -34,7 +35,7 @@ ul      {
 
 aside       {
     grid-column: 1 / 2;
-    background-color: hsl(120, 45%, 10%);
+    background-color: hsl(210, 15%, 24%);
     height: 100%;
     color: hsl(360, 100%, 100%);
     position: fixed;
@@ -82,5 +83,5 @@ main        {
 }
 
 #main-doc       {
-    background: hsl(0, 40%, 97%);
+    background: hsl(192, 15%, 98%);
 }
